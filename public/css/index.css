@@ -1,0 +1,890 @@
+/*@media (max-width: 567px) {
+*{
+  overflow: hidden;
+  }
+}*/
+
+@media (max-width: 567px) {
+.col-xs-6{
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 567px) {
+.col-xs-4{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+body{
+	text-align:center
+}
+
+.dao{
+	height: 500px;
+	width: 100%;
+}
+@media (max-width: 567px) {
+ .dao{
+    /*width: 130px;*/
+    width: 100%;
+    height: 250px;
+    float: left;
+  }
+}
+
+@media (max-width: 567px) {
+.carousel-inner{
+    /*width: 130px;*/
+    /*width: 100%;*/
+    height: 250px;
+   /* float: left;*/
+  }
+}
+
+
+
+.daohang-nav{
+	height:60px;
+}
+
+.logo-small{
+	height:52px;
+	width:100px;
+	border:0;
+}
+ @media (max-width: 567px) {
+ .logo-small{
+    width: 130px;
+    height: 50px;
+    float: left;
+  }
+}
+
+
+
+@media (max-width: 567px) {
+.carousel-inner{
+    /*display: none;*/
+    /*margin-top: 60px;*/
+    /*text-align:center;*/
+    /*margin-left: 20%;*/
+    width: 100%;
+    height: 250px;
+  }
+}
+
+.nav-phone{
+	width: 150px;
+	height: 50px;
+	background: #000;
+}
+.yincang{
+	display:none;
+}
+.zidingyi_all{
+	/*background-color:#FDFCE1;*/
+	margin-top:80px;
+}
+@media (max-width: 567px) {
+.zidingyi_all{
+    margin: 0;
+    padding: 0;
+  }
+}
+.zidingyi_1{
+	margin:0;
+	padding:0;
+	/*width: 100%;*/
+	float:left;
+}
+@media (max-width: 567px) {
+.zidingyi_1{
+  text-align:center;
+  margin-top: 30px;
+  /*margin-left: 20%;*/
+	width: 100%;
+  
+  }
+}
+
+
+.tiao{
+	background-color:#FF5a60;
+	height:6px;
+	width:60px;
+	
+}
+@media (max-width: 567px) {
+.tiao{
+    display: none;
+  }
+}
+.font_lipin{
+	margin-top:80px;
+	font-weight:bolder;
+}
+
+@media (max-width: 567px) {
+.font_lipin{
+    /*display: none;*/
+    margin: 0;
+    padding: 0;
+    font-size:18px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+.font_jiankang{
+	margin-top:20px;
+	font-size:18px;
+	color:#666666;
+}
+
+@media (max-width: 567px) {
+.font_jiankang{
+    margin-top: 10px;
+   font-size:14px;
+  }
+}
+@media (max-width: 567px) {
+.font_jiankang1{
+    /*margin-top: 15px;*/
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    color:#666666;
+  }
+}
+
+
+
+
+
+.btn1{
+	background-color:#ff5a60;
+	color:#ffffff;
+	border:0;
+	border-radius:11px;
+	font-size:16px;
+	height:40px;
+	width:100px;
+	margin-top:60px;	
+}
+
+@media (max-width: 567px) {
+.btn1{
+    /*display: none;*/
+    /*text-align:center;*/
+    display: none;
+  }
+}
+.btn1:hover{
+	background-color:#ff5a60;
+	opacity:0.4;
+	filter:alpha(opacity=40)
+
+}
+
+.zidiingyi_1_img{
+	width:700px;
+	height:400px;
+	float:right;
+}
+@media (max-width: 567px) {
+.zidiingyi_1_img{
+    display: none;
+  }
+}
+.zidingyiall_1{
+	padding-top:60px;
+	float:left;
+}
+@media (max-width: 567px) {
+.zidingyiall_1 {
+ margin: 0;
+ padding: 0;
+ text-align:center;
+ /*margin-bottom: 10px;*/
+  }
+}
+
+
+
+.fuli1{
+	width:277px;
+	height:220px;
+	float:left;
+	margin-right:20px;
+	background-color:#FE4D00;
+}
+
+@media (max-width: 450px) {
+.fuli1{
+	margin: 0;
+	padding: 0;
+	text-align:right;
+	margin-top: 10px;
+	width: 172px;
+	height: 100px;
+	background-image:url(../imgs/hj4.png);
+	float: right;
+	margin-right: 5px;
+	/*margin-left:10px;*/
+
+  }
+}
+.fuli2{
+	width:277px;
+	height:220px;
+	float:left;
+	background-color:#FE4D00;
+}
+@media (max-width: 450px) {
+.fuli2{
+	margin: 0;
+	padding: 0;
+	/*margin-right: 20px;*/
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 172px;
+	height: 100px;
+	background-image:url(../imgs/hj4.png);
+	/*overflow: hidden;*/
+	float: left;
+	margin-right:10px;
+
+	
+  }
+}
+.fuli3{
+	width:277px;
+	height:220px;
+	float:left;
+	margin-right:20px;
+	background-color:#FE4D00;
+}
+@media (max-width: 450px) {
+.fuli3{
+	margin: 0;
+	padding: 0;
+	text-align:right;
+	margin-top: 10px;
+	width: 172px;
+	height: 100px;
+	background-image:url(../imgs/hj4.png);
+	float: right;
+	margin-right: 5px;
+	/*margin-left:10px;*/
+
+  }
+}
+.fuli4{
+	width:277px;
+	height:220px;
+	float:left;
+	background-color:#FE4D00;
+	margin-right: 20px;
+
+}
+@media (max-width: 450px) {
+.fuli4{
+	margin: 0;
+	padding: 0;
+	/*margin-right: 20px;*/
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 172px;
+	height: 100px;
+	background-image:url(../imgs/hj4.png);
+	/*overflow: hidden;*/
+	float: left;
+	margin-right:10px;
+  }
+}
+.fuli-font{
+	margin-top:180px;
+	margin-left:20px;
+	color:white;
+}
+.zidingyi2{
+	width:100%;
+	height:580px;
+	margin-top:100px;
+	background-color:#EFEFEF;
+	
+}
+
+
+
+.font-dingzhi{
+	
+	color:#333333;
+	font-weight:bold;
+	font-size:26px;
+}
+.font-h5{
+	
+	color:#666666;
+}
+.tiao-2{
+	margin-top:20px;
+	background-color:#FE4D00;
+	margin-left:auto;
+	margin-right:auto;
+	height:6px;
+	width:60px;
+	
+}
+
+@media (max-width: 567px) {
+.tiao-2{
+	margin-top: 10px;
+
+  }
+}
+.fuwu-imgs{
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+}
+.fuwu-img1{
+	height:60px;
+	width:60px;
+	margin-left: 360px;
+	margin-right:90px;
+	float:left;
+}
+.fuwu-img{
+	height:60px;
+	width:60px;
+	margin-top:50px;
+	margin-right:90px;
+	float:left;
+}
+.fuwu-img3{
+	height:80px;
+	width:80px;
+	margin-top:80px;	
+}
+.fuwu-font{
+	margin-top:10px;
+	color:#333333;
+	font-size:14px;	
+}
+.zidingyi3{
+	
+	height: 670px;
+	width: 100%;
+	/*background:pink;*/
+	margin-top: 112px;
+	z-index:1;
+	float: left;
+}
+.zdy3-1{
+	height: 380px;
+	width: 1170px;
+	z-index:2;
+	/*background-color:#FF5a60;*/
+	float: left;
+}
+.zdy3-font{
+	/*我们的产品*/
+	color:#ffffff;
+	font-size:30px;
+	margin-left: 60px;
+	padding-top: 150px;
+	font-weight:bold;
+}
+
+.zdy3-font1{
+	/*100%源产地直购保证*/
+	font-size:18px;
+	color:#333333;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+.zdy3-font2{
+	/*专业采购团队*/
+	font-size:18px;
+	color:#333333;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+.zdy3-font3{
+	font-size:16px;
+	color:#333333;
+	margin-top: 10px;
+
+}
+.zdy3-2{
+	width: 380px;
+	height: 290px;
+	background:white;
+	float: left;
+}
+
+.wenzi-font{
+	height: 380px;
+	width: 1040px;
+	z-index:2;
+	/*background-color:#FF5a60;*/
+	background-color:#FF5a60;
+	float: left;
+}
+
+@media (max-width: 567px) {
+.wenzi-font{
+     /*width: 375px;*/
+     display: none;
+  }
+}
+
+.zyd3-3{
+	width:790px;
+	height: 520px;
+	/*background:pink;*/
+	z-index:8;
+	margin-top:-220px;
+}
+
+ @media (max-width: 567px) {
+.zyd3-3{
+     /*width: 375px;*/
+     display: none;
+  }
+}
+
+
+
+
+.zdy3-img1{
+	float: left;
+	/*padding-left: 20px;*/
+}
+.zdy3-img2{
+	float: left;
+	padding-left: 35px;
+}
+.fwqy{
+
+	height:705px;
+	width: 1200px;
+	/*background: pink;*/
+	margin-top: 160px;
+}
+.qyimg{
+	margin-top:40px;
+}
+.qytp1{
+	width: 330px;
+	height: 320px;
+	/*background:black;*/
+}
+.qytp2{
+	width: 330px;
+	height: 210px;
+	/*background:blue;*/
+	margin-top: 10px;
+}
+.qytp3{
+	width: 450px;
+	height: 280px;
+	/*background:orange;*/
+}
+.qytp4{
+	width: 450px;
+	height: 250px;
+	/*background:yellow;*/
+	margin-top: 10px;
+}
+
+.qytp5{
+	width: 401px;
+	height: 160px;
+	/*background:black;*/
+
+}
+
+.qytp6{
+	width: 401px;
+	height: 160px;
+	/*background:blue;*/
+	margin-top: 10px;
+
+}
+.qytp7{
+	width: 400px;
+	height: 200px;
+	/*background:orange;*/
+	margin-top: 10px;
+}
+/*freshtailor板块*/
+.fresh{
+	width: 100%;
+	height: 700px;
+	/*background: #000;*/
+	overflow: hidden;
+	margin-top: 150px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 150px;
+
+}
+
+.fersh-img{
+	height: 580px;
+	width: 460px;
+	/*background: #000;*/
+	margin-top: 60px;
+	float: left;
+	margin-left: 45px;
+}
+.xzqs-img{
+	margin-top: 140px;
+	padding-left: 200px;
+	width: 300px;
+	height: 160px;
+	/*background: #000;*/
+	float: left;
+	background-repeat:no-repeat;
+}
+.xzqs-font{
+	color:white;
+	font-size:16px;
+	margin-top: 360px;
+	padding-left: 550px;
+}
+.hzhb{
+	/*margin-top: 150px;*/
+	width: 1200px;
+	height: 610px;
+	/*background:pink;*/
+	overflow: hidden;
+	/*padding-top: 150px;*/
+}
+.hztp{
+	width: 1200px;
+	height: 400px;
+	/*background: #000;*/
+	margin-top: 20px;
+}
+/*底部*/
+.fotter{
+	height: 200px;
+	width: 100%;
+	background: #323333;
+	margin-top: 140px;
+}
+.fotter-img{
+	width: 102px;
+	height: 34px;
+	margin-top:20px;
+	float: left;
+}
+.fotter-font{
+	list-style-type:none;
+	float: left;
+	font-size:14px;
+	margin-top: 30px;
+	color:#999999;
+}
+
+.fotter-font-a{
+	list-style-type:none;
+	float: left;
+	margin-left: 100px;
+}
+.fotter-font-a a{
+	color:#999999;
+}
+
+.weixin4{
+	width: 80px;
+	height: 80px;
+	margin-top: 40px;
+	background:url(../imgs/fotter-wx.png);
+	background-position:80px 0px;
+
+
+}
+
+.weixin4:hover{
+	background:url(../imgs/fotter-wx.png);	
+	background-position:0px 80px;
+
+	}
+
+
+
+.fotter-1{
+	height:35px;
+	width: 100%;
+}
+.phone{
+	margin-top: 39px;
+	display:block;
+}
+.phone-img img{
+	width: 20px;
+	height: 20px;
+	margin-top: 39px;
+	float: left;
+}
+.clear{ clear:both
+}
+.fotter-copyright{
+	width: 100%;
+	height: 70px;
+	background:#1c1c1c;
+}
+.fotter-copyright p{
+	font-size:16px;
+	padding-left: 310px;
+	padding-top: 30px;
+	color:#999999;
+	float: left;
+}
+.fotter-copyright span{
+	font-size:16px;
+	padding-left: 82px;
+	padding-top: 30px;
+	color:#999999;
+	float: left;
+}
+.guding{
+	height: 234px;
+	width: 55px;
+	/*background:pink;*/
+	position: fixed;
+	float: right;
+	right:20px;
+	top:60%;
+	z-index: 999;
+}
+@media (max-width: 567px) {
+.guding{
+   /*height: auto;
+   width: 100%;*/
+   display: none;
+  }
+}
+
+
+
+/*微信*/
+.wei-img{
+	width: 55px;
+	height: 55px;
+	/*background: #000;*/
+	margin-bottom: 8px;
+	background:url(../imgs/xuebi-weixin.png);
+	background-position:0px 55px;
+	
+}
+.wei-img:hover{
+	background:url(../imgs/xuebi-weixin.png);	
+	background-position:0px 0px;
+
+	}
+/*电话*/
+.wei-img2{
+	width: 55px;
+	height: 55px;
+	/*background: #000;*/
+	margin-bottom: 8px;
+	background:url(../imgs/xuebi-dianhua.png);
+	background-position:0px 55px;
+
+	
+}
+.wei-img2:hover{
+	background:url(../imgs/xuebi-dianhua.png);	
+	background-position:0px 0px;
+
+	}
+
+
+/*top*/
+.wei-img3{
+	width: 55px;
+	height: 55px;
+	/*background: #000;*/
+	margin-bottom: 8px;
+	background:url(../imgs/xuebi-top.png);
+	background-position:0px 55px;
+
+	
+}
+.wei-img3:hover{
+	background:url(../imgs/xuebi-top.png);	
+	background-position:0px 0px;
+
+}
+
+.top-img{
+	width: 55px;
+	height: 55px;
+	background: #000;
+	/*border-radius:50%;*/
+	margin-bottom: 8px;	
+}
+.dao-font{
+	font-size:16px;
+	color:#333333;
+	margin-left:10px;
+}
+
+.chanpin-xs{
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	/*background: #000;*/
+	overflow: hidden;
+}
+@media (max-width: 450px) {
+.fw1{
+	margin: 0;
+	padding: 0;
+	width: 110px;
+	height: 119px;
+	background: green;
+	overflow: hidden;
+	margin-top: 5px;
+	float: right;
+	}
+}
+@media (max-width: 450px) {
+.fw2{
+	margin: 0;
+	padding: 0;
+	width: 110px;
+	height: 119px;
+	background:red;
+	overflow: hidden;
+	margin-top: 5px;
+	}
+}
+@media (max-width: 450px) {
+.fw3{
+	margin: 0;
+	padding: 0;
+	width: 110px;
+	height: 119px;
+	background:yellow;
+	overflow: hidden;
+	float: left;
+	margin-top: 5px;
+	float: left;
+	}
+}
+
+
+
+
+@media (max-width: 450px) {
+.cp1{
+	margin: 0;
+	padding: 0;
+	width: 110px;
+	height: 150px;
+	background: #000;
+	margin-top: 5px;
+	float: right;
+	/*margin-left: 5px;*/
+
+  }
+}
+@media (max-width: 450px) {
+.cp2{
+	margin: 0;
+	padding: 0;
+	width: 110px;
+	height: 150px;
+	background:red;
+	margin-top: 5px;
+	/*margin-left:auto;*/
+	/*float:center;*/
+
+  }
+}
+@media (max-width: 450px) {
+.cp3{
+	margin: 0;
+	padding: 0;
+	width: 110px;
+	height: 150px;
+	background:green;
+	float: left;
+	margin-top: 5px;
+
+  }
+}
+.qs-xs{
+	height: 200px;
+	width: 100%;
+	margin-top: 30px;
+	background: #000;
+	background-image:url(../imgs/bdbg.png);
+
+}
+.fersh-img-xs{
+	height: 150px;
+	width: 100px;
+	margin-top: 25px;
+	margin-left: 20px;
+	background-image:url(../imgs/dm-img.png);
+	float: left;
+	margin-right: 20px;
+
+}
+.xzqs-font-xs{
+	margin-left: 125px;
+	color:white;
+	margin-top: 10px;
+
+}
+.cp-xs{
+	height: 150px;
+	width: 100%;
+}
+
+@media (max-width: 2560px) {
+#fotter-wx{
+	margin-left: 40%;
+  }
+}
+
+.fotter-xs{
+	height: 70px;
+	width: 100%;
+	background: #000;
+	margin-top: 30px;
+}
+.fotterxs-font{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	color:#ffffff;
+	margin-top:5px;
+	font-size:10px;
+}
+.fotter2-xs{
+	width: 100%;
+	height: 30px;
+	background: #323333;
+}
+.fotter2xs-font{
+	font-size:10px;
+	color:#ffffff;
+}

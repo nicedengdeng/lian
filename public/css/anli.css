@@ -1,0 +1,130 @@
+.pufa{
+	width: 100%;
+	height: 1254px;
+	/*background:red;*/
+	float: left;
+
+}
+.pufa-logo{
+	height: 50px;
+	width: 100%;
+	float: left;
+}
+/*浦发银行上面两个图片*/
+.pufa-img{
+	width: 100%;
+	height: 690px;
+	margin-top: 10px;
+	/*background: #000;*/
+	float: left;
+}
+.pufa-1{
+	width: 850px;
+	height: 690px;
+	/*background: pink;*/
+	margin-left:4px;
+	float: left;
+}
+.pufa-2{
+	width: 338px;
+	height: 690px;
+	/*margin-left:4px;*/
+	/*background: yellow;*/
+	margin-right:4px;
+}
+.pufa-img-2{
+	height: 400px;
+	width: 100%;
+	/*background: blue;*/
+	margin-top: 754px;
+}
+.pufa-3{
+	height: 400px;
+	width: 594px;
+	/*background:yellow;*/
+	float: left;
+	margin-left:4px;
+	margin-right: 4px;
+}
+.pufa-4{
+	height: 400px;
+	width: 594px;
+	/*margin-left: 4px;*/
+	/*background:green;*/
+	margin-right: 4px;
+}
+.anli-font{
+	font-size:20px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+
+.junlian{
+	height: 1254px;
+	width: 100%;
+
+}
+
+.junlian-img-1{
+	height: 362px;
+	width: 100%;
+	/*background: #000;*/
+	margin-top: 60px;
+}
+.junlian-1{
+	width: 394px;
+	height: 364px;
+	margin-left: 5px;
+	margin-right: 4px;
+	/*background: green;*/
+	float: left;
+}
+.junlian-2{
+	width: 394px;
+	height: 364px;
+	/*background:blue;*/
+	float: left;
+}
+.junlian-3{
+	width: 394px;
+	height: 364px;
+	margin-right: 5px;
+	/*background:blue;*/
+	float: left;
+}
+.junlian-img-3{
+	width: 100%;
+	height: 362px;
+	margin-top: 372px;
+	/*background: #000;*/
+}
+.junlian-img-2{
+	width: 100%;
+	height: 362px;
+	/*background: #000;*/
+}
+
+
+.chinabank{
+	width: 100%;
+	height: 545px;
+	margin-top: 60px;
+	/*background: #000;*/
+}
+
+.chinabank1{
+	width: 594px;
+	height: 545px;
+	margin-right: 4px;
+	margin-left: 4px;
+	/*background:red;*/
+	float: left;
+}
+
+.chinabank2{
+	width: 594px;
+	height: 545px;
+	margin-right: 4px;
+	/*background:red;*/
+}

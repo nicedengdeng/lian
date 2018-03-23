@@ -1,0 +1,41 @@
+.jieshao{
+	height: 610px;
+	width: 100%;
+	/*background:pink;*/
+	margin-top: 100px;
+}
+.jieshao-font{
+	font-weight:bold;
+	font-size:30px;
+	color:#333333;
+}
+.jieshao-eng{
+	font-size:14px;
+}
+.pinpai{
+	height: 500px;
+	width: 100%;
+	/*background:red;*/
+}
+.pinpai-1{
+	width: 400px;
+	height: 500px;
+	/*background:green;*/
+	float: left;
+}
+
+.pinpai-font{
+	padding-top: 100px;
+	font-size:26px;
+	font-weight:bold;
+}
+.pinpai-font-samll{
+	font-size:16px;
+	color:#ffffff;
+}
+.hezuo-img{
+	height: 610px;
+	width: 100%;
+	background: #000;
+	margin-top: 40px;
+}

@@ -1,19 +1,23 @@
 .dingzhi-bg{
-	width: 100%;
+	/*width: 100%;*/
+	width: auto;
 	height: 500px;
-	background:pink;
+	/*background:pink;*/
 }
 .dingzhi-lipin{
 	font-weight:bolder;
 }	
 .dz01{
-	/*background: cyan;*/
-	/*width: 630px;*/
 	width: 100%;
 	height: 630px;
-	/*background: #000;*/
 
 }
+@media (max-width: 567px) {
+.dz01{
+	height: 358px;
+  }
+}
+
 .dingzhi-font{
 	width:100%;
 	height: 190px;
@@ -22,20 +26,35 @@
 .dz01-zuo{
 	height: 440px;
 	width: 60%;
-	/*background:cyan;*/
 	float: left;
+}
+@media (max-width: 567px) {
+.dz01-zuo{
+	width: 450px;
+	height: 300px;
+	float: left;
+}
 }
 .dz01-you{
 	height: 440px;
 	width: 40%;
 	/*background:red;*/
 }
+
 .dzzuo-1{
 	width: 520px;
 	height: 380px;
-	background:#FF5a60;
-	/*background: #000;*/
-	/*margin-top: 60px;*/
+	/*background:#FF5a60;*/
+}
+@media (max-width: 567px) {
+.dzzuo-1{
+	margin: 0;
+	padding: 0;
+	width: 450px;
+	height: 300px;
+	/*text-align:left;*/
+
+}
 }
 .number{
 	font-size:40px;
@@ -47,7 +66,7 @@
 .dzfl-font{
 	font-size:26px;
 	margin-top: 30px;
-	font-weight:500;
+	font-weight:600;
 }
 .dzfl-font-3{
 	font-size:20px;
@@ -62,7 +81,7 @@
 	width:100%;
 	height: 200px;
 /*	background: #000;*/
-	background:#FF5a60;
+	/*background:#FF5a60;*/
 
 }
 .chandi{
@@ -70,6 +89,15 @@
 	height:810px;
 	/*background:pink;*/
 }
+@media (max-width: 567px) {
+
+.chandi{
+	width:100%;
+	height: 355px;
+	
+}
+}
+
 .kuai1{
 	width:80px;
 	height: 40px;
@@ -94,3 +122,144 @@
 	margin-left: 200px;
 	margin-top: 120px;
 }
+@media (max-width: 567px) {
+.dzzuo-1{
+	width: 450px;
+	height: 301px;
+	margin: 0;
+	padding: 0;
+
+}
+}
+.advkuaii{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	width: 80px;
+	background-color:transparent;
+	border:1px solid black;
+	margin-left: 40px;
+	margin-right: 40px;
+	
+}
+@media (max-width: 567px) {
+.advkuaii{
+	width: 60px;
+	height: 25px;
+	background-color:transparent;
+	border:1px solid black;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+}
+.dz-xs{
+	width: 100%;
+	height: 200px;
+	/*background:pink;*/
+}
+.dz-xs-01{
+	width: 225px;
+	height: 150px;
+	margin-top: 30px;
+	background: #000;
+	float: left;
+
+}
+.dz-xs-02{
+	margin-top: 30px;
+}
+.dz-xs-02-1{
+	margin-top: 10px;
+	font-size:17px;
+	color:#333333;
+}
+.dz-xs-02-2{
+	font-size:14px;
+	font-weight:bold;
+	margin: 0;
+	padding: 0;
+	/*margin-top: 20px;*/
+}
+.dz-xs-02-3{
+	font-size:11px;
+	margin-top: 30px;
+	color:#333333;
+}
+.dz-xs-02-4{
+	font-size:9px;
+	color:#000000;
+	margin-top: 10px;
+	margin-bottom:0;
+}
+.dz-xs-02-5{
+	margin: 0;
+	padding: 0;
+	font-size:9px;
+	color:#000000;
+	/*margin-top: 10px;*/
+}
+.dz-xs2{
+	width: 100%;
+	height: 200px;
+	background:#EFEFEF;
+}
+.dz-xs2-01{
+	width: 225px;
+	height: 150px;
+	margin-top: 30px;
+	background: #000;
+	float: right;
+
+}
+.dz-xs2-02{
+	margin-top: 30px;
+}
+
+..dz-xs2-02-1{
+	margin-top: 10px;
+	font-size:17px;
+	color:#333333;
+}
+.dz-xs2-02-2{
+	font-size:14px;
+	font-weight:bold;
+	margin: 0;
+	padding: 0;
+	/*margin-top: 20px;*/
+}
+.dz-xs2-02-1{
+	margin-top: 10px;
+	font-size:17px;
+	color:#333333;
+}
+.dz-xs2-02-2{
+	font-size:14px;
+	font-weight:bold;
+	margin: 0;
+	padding: 0;
+	/*margin-top: 20px;*/
+}
+.dz-xs2-02-3{
+	font-size:11px;
+	margin-top: 30px;
+	color:#333333;
+}
+.dz-xs2-02-5{
+	margin: 0;
+	padding: 0;
+	font-size:9px;
+	color:#000000;
+	/*margin-top: 10px;*/
+}
+.dz-xs2-02-4{
+	font-size:9px;
+	color:#000000;
+	margin-top: 10px;
+	margin-bottom:0;
+}
+/*@media (max-width: 567px) {
+.showadv{
+	height: 175px;
+	width: 275px;
+}
+}*/

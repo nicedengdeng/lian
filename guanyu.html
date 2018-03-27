@@ -12,135 +12,181 @@
 <script type="text/javascript" src="public/js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="public/js/index.js"></script>
-<style></style>
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/{{version0.3.4}}/??flexible_css.js,flexible.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 </head>
 <body>
-<!-- 导航条 -->
 <div class="container-fuild">
-  <div class="row clearfix">
-    <div class="guding">
-      <div class="wei-img" style="border-radius:10%;width:53px;height:53px;" onMouseOut="hideImg()" onmouseover="showImg()">
-        <div id="wxImg" style="display:none;height:50px;position:absolute;right:65px;top:-5%;"> <img src="public/imgs/gongneng/wx-right.png"> </div>
-      </div>
-      <div class="wei-img2" style="border-radius:10%; width:53px;height:53px;" onMouseOut="hideImg1()" onmouseover="showImg1()">
-        <div id="kfImg" style="display:none;height:50px;position:absolute;right:65px;top:23%;"> <img src="public/imgs/gongneng/kefu.png"> </div>
-      </div>
-      <div class="wei-img3" style="border-radius:10%; width:53px;height:53px;"  id="to_top"> </div>
+<div class="row clearfix">
+  <div class="guding">
+    <div class="wei-img" style="border-radius:10%;width:53px;height:53px;" onMouseOut="hideImg()" onmouseover="showImg()">
+      <div id="wxImg" style="display:none;height:50px;position:absolute;right:65px;top:-5%;"> <img src="public/imgs/gongneng/wx-right.png"> </div>
     </div>
-    <div class="container">
-      <div class="row clearfix">
-        <div class="col-md-12 column">
-          <nav class="navbar navbar-default  navbar-fixed-top" role="navigation" style="background:white;;border: 0;box-shadow: 2px 1px 3px #E3E3E3;">
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle  pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                <img src="public/imgs/logo-small.png" style="height:52px; width:100px;border:0;"></a> </div>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav pull-right">
-                  <li class="dao-font" ><a href="index.html">首页</a></li>
-                  <li class="dao-font"> <a href="dingzhi.html" >定制服务</a> </li>
-                  <li class="dao-font"> <a href="chanpin.html">产品目录</a> </li>
-                  <li class="dao-font"> <a href="anli.html" >客户案例</a> </li>
-                  <li class="dao-font"> <a href="guanyu.html"  style="color:#333333;">关于我们</a> </li>
-                </ul>
-              </div>
+    <div class="wei-img2" style="border-radius:10%; width:53px;height:53px;" onMouseOut="hideImg1()" onmouseover="showImg1()">
+      <div id="kfImg" style="display:none;height:50px;position:absolute;right:65px;top:23%;"> <img src="public/imgs/gongneng/kefu.png"> </div>
+    </div>
+    <div class="wei-img3" style="border-radius:10%; width:53px;height:53px;"  id="to_top"> </div>
+  </div>
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-md-12 column">
+        <nav class="navbar navbar-default  navbar-fixed-top" role="navigation" style="background:white;;border: 0;box-shadow: 2px 1px 3px #E3E3E3;">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle  pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+              <img src="public/imgs/logo-small.png"class="logo-small"></a></div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav pull-right">
+                <li class="dao-font" ><a href="index.html" style="color:#FF5a60;">首页</a></li>
+                <li class="dao-font"> <a href="dingzhi.html" >定制服务</a> </li>
+                <li class="dao-font"> <a href="chanpin.html">产品目录</a> </li>
+                <li class="dao-font"> <a href="anli.html" >客户案例</a> </li>
+                <li class="dao-font"> <a href="guanyu.html">关于我们</a> </li>
+              </ul>
             </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
     </div>
   </div>
-  <div class="dingzhi-bg"> <img src="" alt="定制第一张大图片"> </div>
-  <div class="container-fuild" >
-    <div class="jieshao">
-      <div class="container">
-        <div class="row clearfix">
-          <p class="jieshao-font">公司介绍</p>
-          <div class="tiao-2"></div>
-          <p class="jieshao-eng" style="margin-top:10px; font-size:16px;">COMPANY INTRODUCTION</p>
-          <div class="pinpai">
-            <div class="pinpai-1" style="background-color:#FDB7DC;">
-              <p class="pinpai-font">独特的行业品牌</p>
-              <div style="width:320px;height:102px;margin-left: 54px;">
-                <p class="pinpai-font-samll text-left" style="margin-top:60px;">鲜知成立于2015年,公司秉承“专注品质，</p>
-                <p class="pinpai-font-samll text-left">服务企业的理念”，将健康、高品质的食材</p>
-                <p class="pinpai-font-samll text-left">通过创新的形式为企业提供定制化的专属服</p>
-                <p class="pinpai-font-samll text-left">务。</p>
-              </div>
+</div>
+<div class="dingzhi-bg img-responsive visible-lg" style="background-image:url(public/imgs/dingzhi/Banner.png); background-repeat:no-repeat;background-position:center;margin-top:50px;"></div>
+<div class="img-responsive visible-xs" style="background-image:url(public/imgs/dingzhi/Banner.png); height:125px; background-repeat:no-repeat;background-position:center;margin-top:50px;"></div>
+<div class="container-fuild img-responsive visible-lg" >
+  <div class="jieshao">
+    <div class="container">
+      <div class="row clearfix">
+        <p class="jieshao-font">公司介绍</p>
+        <div class="tiao-2"></div>
+        <p class="jieshao-eng" style="margin-top:10px; font-size:16px;">COMPANY INTRODUCTION</p>
+        <div class="pinpai">
+          <div class="pinpai-1" style="background-color:#FDB7DC;">
+            <p class="pinpai-font">独特的行业品牌</p>
+            <div style="width:320px;height:102px;margin-left: 54px;">
+              <p class="pinpai-font-samll text-left" style="margin-top:60px;">鲜知成立于2015年,公司秉承“专注品质，</p>
+              <p class="pinpai-font-samll text-left">服务企业的理念”，将健康、高品质的食材</p>
+              <p class="pinpai-font-samll text-left">通过创新的形式为企业提供定制化的专属服</p>
+              <p class="pinpai-font-samll text-left">务。</p>
             </div>
-            <div class="pinpai-1" style="background-color:#B4EAFA;">
-              <p class="pinpai-font">智能化的销售平台</p>
-              <div style="width:320px;height:102px;margin-left: 54px;">
-                <p class="pinpai-font-samll text-left" style="margin-top:60px;">依托过硬的产品质量、强大的供应链、完善</p>
-                <p class="pinpai-font-samll text-left">的服务体系及独创的智能化销售平台,同时</p>
-                <p class="pinpai-font-samll text-left">通满足了客户的定制化服务和大规模的订购需</p>
-                <p class="pinpai-font-samll text-left">求。</p>
-              </div>
+          </div>
+          <div class="pinpai-1" style="background-color:#B4EAFA;">
+            <p class="pinpai-font">智能化的销售平台</p>
+            <div style="width:320px;height:102px;margin-left: 54px;">
+              <p class="pinpai-font-samll text-left" style="margin-top:60px;">依托过硬的产品质量、强大的供应链、完善的服</p>
+              <p class="pinpai-font-samll text-left">务体系及独创的智能化销售平台,同时</p>
+              <p class="pinpai-font-samll text-left">通满足了客</p>
+              <p class="pinpai-font-samll text-left">户的定制化服务和大规模的订购需求。</p>
             </div>
-            <div class="pinpai-1" style="background-color:#EDF2AC;">
-              <p class="pinpai-font" >优质的服务体系</p>
-              <div style="width:320px;height:102px;margin-left: 54px;">
-                <p class="pinpai-font-samll text-left" style="margin-top:60px;">截止2018年1月1日,公司成立三年之际,</p>
-                <p class="pinpai-font-samll text-left">鲜知已累计服务了联想、小米、中信银行、</p>
-                <p class="pinpai-font-samll text-left">上海浦发银行、联想控股、OFO等诸多知名</p>
-                <p class="pinpai-font-samll text-left">企业,产品值得信赖。</p>
-              </div>
+          </div>
+          <div class="pinpai-1" style="background-color:#EDF2AC;">
+            <p class="pinpai-font" >优质的服务体系</p>
+            <div style="width:320px;height:102px;margin-left: 54px;">
+              <p class="pinpai-font-samll text-left" style="margin-top:60px;">截止2018年1月1日,公司成立三年之际,</p>
+              <p class="pinpai-font-samll text-left">鲜知已累计服务了联想、小米、中信银行、</p>
+              <p class="pinpai-font-samll text-left">上海浦发银行、联想控股、OFO等诸多知名</p>
+              <p class="pinpai-font-samll text-left">企业,产品值得信赖。</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="row clearfix">
-      <p class="jieshao-font" style="margin-top:100px;">合作企业</p>
-      <div class="tiao-2"></div>
-      <p class="jieshao-eng" style="margin-top:10px; font-size:16px;">Cooperative enterprise</p>
-      <div class="hezuo-img"> </div>
-    </div>
-  </div>
-  <div class="fotter" style="background: #000;">
-    <div class="container">
-      <div class="fotter-1" >
-        <div class="fotter-img"> <img src="public/imgs/fotter-logo.png"> </div>
-        <div class="fotter-font">
-          <ul>
-            <li class="fotter-font-a"><a href="index.html">首页</a></li>
-            <li class="fotter-font-a"><a href="chanpin.html">产品目录</a></li>
-            <li class="fotter-font-a"><a href="anli.html">客户案例</a></li>
-            <li class="fotter-font-a"><a href="dingzhi.html">定制方案</a></li>
-            <li class="fotter-font-a"><a href="guanyu.html">关于我们</a></li>
-          </ul>
-        </div>
-        <!-- 微信图片 -->
-        <div class="weixin pull-right" onMouseOut="hideImg()" onmouseover="showImg()"> <img src="public/imgs/weixin.png"> </div>
-        <div id="wxImg"> 
-          <!-- <img src="public/imgs/weixin.png"> --> 
-        </div>
-      </div>
-      <div class="phone" style="width:100%;">
-        <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/phone-1.jpg"> </div>
-        <div class="fotter-font" >
-          <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>总部地址&nbsp;:&nbsp;&nbsp;</span></li>
-          <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>北京市海淀区上地三街金隅嘉华大厦F座301</span></li>
-        </div>
-      </div>
-      <div class="phone clear" style="width:100%; margin-bottom:45px;">
-        <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/addr.jpg"> </div>
-        <div class="fotter-font" >
-          <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>客服热线&nbsp;:&nbsp;&nbsp;</span></li>
-          <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>400-727-010</span></li>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="fotter-copyright text-left">
-    <div class="container">
-      <p>Copyright© 2018北京联沃农业科技有限公司</p>
-      <span class="pull-left" >京ICP备14018267号</span> </div>
+</div>
+<div class="container img-responsive visible-lg">
+  <div class="row clearfix">
+    <p class="jieshao-font" style="margin-top:100px;">合作企业</p>
+    <div class="tiao-2"></div>
+    <p class="jieshao-eng" style="margin-top:10px; font-size:16px;">Cooperative enterprise</p>
+    <div class="hezuo-img"> </div>
   </div>
 </div>
-<!--containner-fuild的结束 -->
-
+<div class="gy-xs img-responsive visible-xs">
+  <p class="dingzhi-lipin " style="font-size:18px;font-weight:blod;color:#333333;padding-top:30px;">公司介绍</p>
+  <div class="container">
+    <div class="gy-xs"style="height: 200px;background-image:url(public/imgs/dingzhi/Banner.png);">
+      <p class="gy-xs-01">独特的行业品牌</p>
+      <p class="pinpai-font-samll" style="margin-top:20px;">鲜知成立于2015年,公司秉承“专注品质，服务</p>
+      <p class="pinpai-font-samll">企业”的理念，将健康、高品质的食材通过创新</p>
+      <p class="pinpai-font-samll">的形式为企业提供定制化的专属服务。</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="gy-xs"style="height: 200px;background-image:url(public/imgs/dingzhi/Banner.png);">
+      <p class="gy-xs-01">智能化的销售平台</p>
+      <p class="pinpai-font-samll" style="margin-top:20px;">依托过硬的产品质量、强大的供应链、完善</p>
+      <p class="pinpai-font-samll">的服务体系及独创的智能化销售平台,同时</p>
+      <p class="pinpai-font-samll">通满足了客户的定制化服务和大规模的订购需求。</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="gy-xs"style="height: 200px;background-image:url(public/imgs/dingzhi/Banner.png);">
+      <p class="gy-xs-01">优质的服务体系</p>
+      <p class="pinpai-font-samll" style="margin-top:20px;">截止2018年1月1日,公司成立三年之际,鲜知已</p>
+      <p class="pinpai-font-samll">累计服务了联想、小米、中信银行、上海浦发银</p>
+      <p class="pinpai-font-samll">行、联想控股、OFO等诸多知名企业,产品值得</p>
+      <p class="pinpai-font-samll">信赖。</p>
+    </div>
+  </div>
+  <p class="dingzhi-lipin " style="font-size:18px;font-weight:blod;color:#333333;padding-top:30px;">合作企业</p>
+  <div class="container">
+    <div class="hzqy-xs-img"></div>
+  </div>
+  </div>
+    <!--经修改后的底部-->
+    <div class="fotter text-left img-responsive visible-lg" style="background: #000;">
+      <div class="container">
+        <div class="fotter-1" >
+          <div class="fotter-img"> <img src="public/imgs/fotter-logo.png"> </div>
+          <div class="fotter-font">
+            <ul>
+              <li class="fotter-font-a"><a href="index.html">首页</a></li>
+              <li class="fotter-font-a"><a href="chanpin.html">产品目录</a></li>
+              <li class="fotter-font-a"><a href="anli.html">客户案例</a></li>
+              <li class="fotter-font-a"><a href="dingzhi.html">定制方案</a></li>
+              <li class="fotter-font-a"><a href="guanyu.html">关于我们</a></li>
+            </ul>
+          </div>
+          <!-- 微信图片 -->
+        <div class="weixin4 pull-right" onMouseOut="hideImg4()" onmouseover="showImg4()"></div>
+         <div id="fotter-wx" class="pull-right" style=" display:none;margin-top: -15%; margin-right: -80px;"><img src="public/imgs/gongneng/fotter-weixin.png"></div>
+        </div>
+        <div class="phone" style="width:100%;">
+          <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/phone-1.jpg"> </div>
+          <div class="fotter-font" >
+            <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>总部地址&nbsp;:&nbsp;&nbsp;</span></li>
+            <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>北京市海淀区上地三街金隅嘉华大厦F座301</span></li>
+          </div>
+        </div>
+        <div class="phone clear" style="width:100%; margin-bottom:45px;">
+          <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/addr.jpg"> </div>
+          <div class="fotter-font" >
+            <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>客服热线&nbsp;:&nbsp;&nbsp;</span></li>
+            <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>400-727-010</span></li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fotter-copyright text-left img-responsive visible-lg">
+      <div class="container">
+        <p>Copyright© 2018北京联沃农业科技有限公司</p>
+        <span class="pull-left" >京ICP备14018267号</span> </div>
+    </div>
+    <div class="fotter-xs img-responsive visible-xs">
+      <div class="container">
+        <div class="row clearfix">
+          <p class="fotterxs-font" style="margin-top:10px;">北京联沃农业科技有限公司</p>
+          <p class="fotterxs-font">4000-727-010</p>
+          <p class="fotterxs-font">北京市海淀区上地三街金隅嘉华大厦F座301</p>
+        </div>
+      </div>
+    </div>
+    <div class="fotter2-xs img-responsive visible-xs">
+      <div class="container">
+        <div class="row clearfix">
+          <p class="fotter2xs-font" style="margin-top:10px;">京ICP备14018267号</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

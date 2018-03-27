@@ -1,11 +1,14 @@
 .mulu-img{
 	width: 100%;
 	height: 500px;
-	background:pink;
+	/*background:pink;*/
+	/*background-image:url(../imgs/good.png);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	text-align:center;*/
 }
 .wechanpin-font{
 	font-size:26px;
-	color:#ffffff;
 	margin-top: 100px;
 	font-weight:bold;
 	margin-bottom: 60px;
@@ -26,7 +29,7 @@
 
 }
 .shengxian{
-	width: 196px;
+	width: 194px;
 	height: 252px;
 	background:white;
 	position: absolute;
@@ -61,6 +64,7 @@
 .No3{
 	font-size:26px;
 	color:#333333;
+	font-weight:bold;
 
 }
 .lb2,.lb3{
@@ -68,13 +72,37 @@
 }
 .adv{
 	/*width: 100%;*/
-	height: 825px;
-	background-color:#C8FBFA;
-	margin-top: 150px;
+	height: 650px;
+	/*background-color:#C8FBFA;*/
+	margin-top: 100px;
 }
 .advkuai{
+	margin: 0;
+	padding: 0;
 	height: 40px;
 	width: 80px;
-	background-color:#FF5a60;
+	margin-right: 50px;
+	background-color:transparent;
+	border:1px solid black;
 	
+}
+.advall{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	/*background: #000;*/
+	margin-top: 30px;
+	text-align:center;
+}
+#advimg{
+	margin-top: 30px;
+	height: 500px;
+	width: 800px;
+}	
+.active1{
+	color:#FFF !important;
+	border:1px solid #FF5a60 ;
+	outline:0 !important;
+	background-color:#FF5a60 !important;
 }

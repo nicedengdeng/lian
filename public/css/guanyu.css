@@ -33,9 +33,26 @@
 	font-size:16px;
 	color:#ffffff;
 }
+@media (max-width: 567px) {
+.pinpai-font-samll{
+    margin: 0;
+    padding: 0;
+    font-size:13px;
+  }
+}
 .hezuo-img{
 	height: 610px;
 	width: 100%;
 	background: #000;
 	margin-top: 40px;
+}
+.gy-xs-01{
+	font-size:13px;
+	font-weight:bold;
+	margin-top: 80px;
+}
+.hzqy-xs-img{
+	height: 170px;
+	/*width: 355px;*/
+	background: #000;
 }

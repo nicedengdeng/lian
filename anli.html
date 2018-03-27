@@ -11,7 +11,8 @@
 <script type="text/javascript" src="public/js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="public/js/index.js"></script>
-<style></style>
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/{{version0.3.4}}/??flexible_css.js,flexible.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 </head>
 <body>
 <!-- 导航条 -->
@@ -32,14 +33,14 @@
           <nav class="navbar navbar-default  navbar-fixed-top" role="navigation" style="background:white;;border: 0;box-shadow: 2px 1px 3px #E3E3E3;">
             <div class="container">
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle  pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                <img src="public/imgs/logo-small.png" style="height:52px; width:100px;border:0;"></a> </div>
+                <button type="button" class="navbar-toggle  pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <img src="public/imgs/logo-small.png"class="logo-small"></a></div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pull-right">
-                  <li class="dao-font" ><a href="index.html" >首页</a></li>
+                  <li class="dao-font" ><a href="index.html">首页</a></li>
                   <li class="dao-font"> <a href="dingzhi.html" >定制服务</a> </li>
-                  <li class="dao-font"> <a href="chanpin.html">产品目录</a> </li>
-                  <li class="dao-font"> <a href="anli.html"style=" color:#333333;" >客户案例</a> </li>
+                  <li class="dao-font"> <a href="chanpin.html" >产品目录</a> </li>
+                  <li class="dao-font"> <a href="anli.html"  style="color:#FF5a60;">客户案例</a> </li>
                   <li class="dao-font"> <a href="guanyu.html">关于我们</a> </li>
                 </ul>
               </div>
@@ -51,8 +52,8 @@
   </div>
   <div class="container" >
     <div class="row clearfix">
-      <div class="pufa" style="background: white;">
-        <div class="pufa-logo"> <img src="public/imgs/pufa/pufa-logo.png" style="width:100px;height:40px;margin-top:10px; float: left;"> <span style="float:left;margin-top:22px;margin-left:20px; font-size:16px; color:#333333;">浦发银行</span> <span style="float:left;margin-top:22px;margin-left:20px; font-size:16px; color:#333333;">会议服务</span> </div>
+      <div class="pufa" style="background: white;margin-top:50px;">
+        <div class="pufa-logo"><img src="public/imgs/pufa/pufa-logo.png" style="width:100px;height:40px;margin-top:10px; float: left;"> <span style="float:left;margin-top:22px;margin-left:20px; font-size:16px; color:#333333;">浦发银行</span> <span style="float:left;margin-top:22px;margin-left:20px; font-size:16px; color:#333333;">会议服务</span> </div>
         <div class="pufa-img">
           <div class="pufa-1 pull-left"> <img src='public/imgs/pufa/1-1.png'> </div>
           <div class="pufa-2 pull-right"> <img src="public/imgs/pufa/1-2.png"> </div>
@@ -107,47 +108,64 @@
       </div>
     </div>
   </div>
-  <div class="fotter" style="background: #000;">
-    <div class="container">
-      <div class="fotter-1" >
-        <div class="fotter-img"> <img src="public/imgs/fotter-logo.png"> </div>
-        <div class="fotter-font">
-          <ul>
-            <li class="fotter-font-a"><a href="index.html">首页</a></li>
-            <li class="fotter-font-a"><a href="chanpin.html">产品目录</a></li>
-            <li class="fotter-font-a"><a href="anli.html">客户案例</a></li>
-            <li class="fotter-font-a"><a href="dingzhi.html">定制方案</a></li>
-            <li class="fotter-font-a"><a href="guanyu.html">关于我们</a></li>
-          </ul>
+    <!--经修改后的底部-->
+    <div class="fotter text-left img-responsive visible-lg" style="background: #000;">
+      <div class="container">
+        <div class="fotter-1" >
+          <div class="fotter-img"> <img src="public/imgs/fotter-logo.png"> </div>
+          <div class="fotter-font">
+            <ul>
+              <li class="fotter-font-a"><a href="index.html">首页</a></li>
+              <li class="fotter-font-a"><a href="chanpin.html">产品目录</a></li>
+              <li class="fotter-font-a"><a href="anli.html">客户案例</a></li>
+              <li class="fotter-font-a"><a href="dingzhi.html">定制方案</a></li>
+              <li class="fotter-font-a"><a href="guanyu.html">关于我们</a></li>
+            </ul>
+          </div>
+          <!-- 微信图片 -->
+          <div class="weixin4 pull-right" onMouseOut="hideImg4()" onmouseover="showImg4()"></div>
+         <div id="fotter-wx" class="pull-right" style=" display:none;margin-top: -15%; margin-right: -80px;"><img src="public/imgs/gongneng/fotter-weixin.png"></div>
+
         </div>
-        <!-- 微信图片 -->
-        <div class="weixin pull-right" onMouseOut="hideImg()" onmouseover="showImg()"> <img src="public/imgs/weixin.png"> </div>
-        <div id="wxImg"> 
-          <!-- <img src="public/imgs/weixin.png"> --> 
+        <div class="phone" style="width:100%;">
+          <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/phone-1.jpg"> </div>
+          <div class="fotter-font" >
+            <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>总部地址&nbsp;:&nbsp;&nbsp;</span></li>
+            <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>北京市海淀区上地三街金隅嘉华大厦F座301</span></li>
+          </div>
         </div>
-      </div>
-      <div class="phone" style="width:100%;">
-        <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/phone-1.jpg"> </div>
-        <div class="fotter-font" >
-          <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>总部地址&nbsp;:&nbsp;&nbsp;</span></li>
-          <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>北京市海淀区上地三街金隅嘉华大厦F座301</span></li>
-        </div>
-      </div>
-      <div class="phone clear" style="width:100%; margin-bottom:45px;">
-        <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/addr.jpg"> </div>
-        <div class="fotter-font" >
-          <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>客服热线&nbsp;:&nbsp;&nbsp;</span></li>
-          <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>400-727-010</span></li>
+        <div class="phone clear" style="width:100%; margin-bottom:45px;">
+          <div class="phone-img"> <img style="margin-top: 30px;margin-right:10px;" src="public/imgs/addr.jpg"> </div>
+          <div class="fotter-font" >
+            <li class="fotter-font-a" style="margin-left: 5px; font-size:16px;"><span>客服热线&nbsp;:&nbsp;&nbsp;</span></li>
+            <li class="fotter-font-a" style="margin-left: 5px;font-size:16px;"><span>400-727-010</span></li>
+          </div>
         </div>
       </div>
     </div>
+    <div class="fotter-copyright text-left img-responsive visible-lg">
+      <div class="container">
+        <p>Copyright© 2018北京联沃农业科技有限公司</p>
+        <span class="pull-left" >京ICP备14018267号</span> </div>
+    </div>
+
+
+    <div class="fotter-xs img-responsive visible-xs">
+      <div class="container">
+        <div class="row clearfix">
+          <p class="fotterxs-font" style="margin-top:10px;">北京联沃农业科技有限公司</p>
+          <p class="fotterxs-font">4000-727-010</p>
+          <p class="fotterxs-font">北京市海淀区上地三街金隅嘉华大厦F座301</p>
+        </div>
+      </div>   
+    </div>
+    <div class="fotter2-xs img-responsive visible-xs">
+      <div class="container">
+        <div class="row clearfix">
+          <p class="fotter2xs-font" style="margin-top:10px;">京ICP备14018267号</p>
+        </div>
+      </div>   
+    </div>
   </div>
-  <div class="fotter-copyright text-left">
-    <div class="container">
-      <p>Copyright© 2018北京联沃农业科技有限公司</p>
-      <span class="pull-left" >京ICP备14018267号</span> </div>
-  </div>
-</div>
-</div>
 </body>
 </html>
